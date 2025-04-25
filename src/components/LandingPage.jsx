@@ -3,7 +3,7 @@ import "../css/Landingpage.css";
 import watchVideo from "../assets/Watchlanding.mp4";
 import "../scripts/Landingpage.js";
 import watch4 from "../assets/watch4.png";
-import showCaseImg from "../assets/showcase.jpg";
+import showCaseImg from "../assets/Showcase.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
