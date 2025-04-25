@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../css/Landingpage.css";
-import watchVideo from "../assets/watchlanding.mp4";
+import watchVideo from "../assets/Watchlanding.mp4";
 import "../scripts/Landingpage.js";
 import watch4 from "../assets/watch4.png";
 import showCaseImg from "../assets/showcase.jpg";
