@@ -1,8 +1,8 @@
 import React from 'react'
-import LandingPage from './components/LandingPage'
-import Discover from './components/Discover'
-import Warranty from './components/Warranty'
-import OurStore from './components/OurStore'
+import LandingPage from './components/LandingPage.jsx'
+import Discover from './components/Discover.jsx'
+import Warranty from './components/Warranty.jsx'
+import OurStore from './components/OurStore.jsx'
 import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
 import Lenis from 'lenis'
@@ -38,7 +38,7 @@ function App() {
       <Discover/>
 
       <HorizontalScroll/>
-        
+
       <Warranty/>
       <OurStore/>
       <Footer/>

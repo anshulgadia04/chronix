@@ -1,5 +1,5 @@
 import React from "react";
-import ourstoreVid from '../assets/ourstore.mp4'
+import ourstoreVid from '../assets/Ourstore.mp4'
 
 const OurStore = () => {
   return (

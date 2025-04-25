@@ -3,8 +3,10 @@ import watch2 from "../assets/watch2.png";
 import watch3 from "../assets/watch3.png";
 import watch4 from "../assets/watch4.png";
 import watch5 from "../assets/watch5.png";
+
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
+
 
 const Discover = () => {
   const watchOneContainerref = useRef(null);
