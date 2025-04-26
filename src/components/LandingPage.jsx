@@ -3,12 +3,13 @@ import "../css/Landingpage.css";
 import watchVideo from "../assets/Watchlanding.mp4";
 import "../scripts/Landingpage.js";
 import watch4 from "../assets/watch4.png";
-import showCaseImg from "../assets/Showcase.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import landingVideo from "../assets/landingvideo.mp4";
 
 function LandingPage() {
   const svgRef = useRef();
+
   useEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
@@ -125,8 +126,8 @@ function LandingPage() {
       </div>
 
 
-      <div className="videoScreen absolute top-[100%] md:p-28 h-screen overflow-hidden w-full bg-white flex justify-center items-center text-3xl">
-            <img className="h-full w-full object-cover" src={showCaseImg}/>
+      <div className="videoScreen absolute top-[100%] h-screen overflow-hidden w-full bg-white flex justify-center items-center text-3xl">
+            <video autoPlay loop muted src={landingVideo} className="w-full h-full object-cover"></video>
       </div>
     
     </div>

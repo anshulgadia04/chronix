@@ -29,20 +29,6 @@ const Discover = () => {
   const scale4 = useTransform(mainYProgress, [0.65, 0.75], [1, 0.83]);
   const scale5 = useTransform(mainYProgress, [0.8, 0.9], [1, 0.84]);
 
-  useEffect(() => {
-    const unsubMain = mainYProgress.on("change", (v) => {
-      if (v > 0.1 && v < 0.9) console.log("mainYProgress:", v.toFixed(2));
-    });
-
-    const unsubWatch = watchOneYProgress.on("change", (v) => {
-      if (v > 0.1 && v < 0.9) console.log("watchOneYProgress:", v.toFixed(2));
-    });
-
-    return () => {
-      unsubMain();
-      unsubWatch();
-    };
-  }, []);
 
   return (
     <>
