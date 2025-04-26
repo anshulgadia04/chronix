@@ -10,6 +10,9 @@ import landingVideo from "../assets/landingvideo.mp4";
 function LandingPage() {
   const svgRef = useRef();
 
+
+  
+
   useEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
@@ -26,20 +29,17 @@ function LandingPage() {
         {
           strokeDasharray: (i, el) => el.getTotalLength(),
           strokeDashoffset: (i, el) => el.getTotalLength(),
-          //   opacity: 1,
         },
         {
           strokeDashoffset: 0,
           duration: 5,
           ease: "power1.inOut",
-          //   stagger: 0.1,
         }
       )
       .to(
         ".overlay",
         {
           opacity: 0,
-          // yPercent: -100,
           duration: 0.5,
         },
         "<+1.8"
