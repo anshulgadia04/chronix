@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import warrantyvideo from "../assets/warrantyvideo.mp4";
+import warrantyvideo from "../assets/Warrantyvideo.mp4";
 import { motion , useScroll , useTransform } from "framer-motion";
 import { useRef } from "react";
 
