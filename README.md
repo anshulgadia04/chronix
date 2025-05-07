@@ -18,7 +18,7 @@ Chronix is a premium online destination for luxury timepieces, blending modern e
 
 ## 🖼️ Preview
 
-![Chronix Website Preview](./screenshot.png) <!-- Replace with your own screenshot -->
+![Chronix Website Preview](https://chronix-vite.vercel.app/) <!-- Replace with your own screenshot -->
 
 ---
 
@@ -56,10 +56,6 @@ Chronix is a premium online destination for luxury timepieces, blending modern e
 - **(Optional) React Router** – For multi-page navigation
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 
 **© 2024 Chronix. All Rights Reserved.**
