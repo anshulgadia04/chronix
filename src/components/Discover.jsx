@@ -48,7 +48,7 @@ const Discover = () => {
               draggable="false"
               className="watch-one h-[50%] md:h-[70%] object-contain drop-shadow-2xl md:mb-0 mb-5"
             />
-            <div className="md:ml-5 max-w-lg watch-one-text">
+            <div className="md:ml-5 max-w-lg watch-one-text flex flex-col items-center md:items-start">
               <h1 className="md:text-5xl text-2xl text-center md:text-left text-nowrap font-semibold text-white mb-4 tracking-wide">
                 Eclipse Royale
               </h1>
@@ -59,7 +59,7 @@ const Discover = () => {
                 A bold fusion of obsidian black and radiant gold—crafted for
                 those who redefine prestige under pressure.
               </p>
-              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-3 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
+              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-4 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out text-sm">
                 Wear the Crown
               </button>
             </div>
@@ -68,26 +68,26 @@ const Discover = () => {
 
         <motion.div
           style={{ scale: scale2 }}
-          className="h-screen sticky top-[25px] w-full flex flex-col items-center justify-center py-20 watch-two-container"
+          className="h-screen sticky top-0 md:top-[25px] w-full flex flex-col items-center justify-center py-20 watch-two-container"
         >
-          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl px-8 py-3">
+          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl md:px-8 px-5 py-3">
             <img
               src={watch2}
               alt="Midnight Prestige"
-              className=" watch-two h-[70%] object-contain drop-shadow-2xl"
+              className=" watch-two h-[50%] md:h-[70%] object-contain drop-shadow-2xl md:mb-0 mb-5"
             />
-            <div className="ml-5 max-w-lg watch-two-text">
-              <h1 className="text-5xl font-semibold text-white mb-4 tracking-wide">
+            <div className="md:ml-5 max-w-lg flex flex-col items-center md:items-start watch-two-text">
+              <h1 className="md:text-5xl text-2xl text-center md:text-left text-nowrap font-semibold text-white mb-4 tracking-wide">
                 Aether Crown
               </h1>
-              <p className="text-xl text-white italic mb-4">
+              <p className="md:text-xl text-md text-white italic mb-2 md:mb-4 md:text-left text-center">
                 "For those who rule every second."
               </p>
-              <p className="text-base text-gray-200 leading-relaxed">
+              <p className="md:text-base text-xs text-gray-200 leading-relaxed">
                 Lightweight, celestial, and commanding. Aether Crown brings
                 royal presence to your wrist with cosmic precision.
               </p>
-              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
+              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-4 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out text-sm">
                 Claim Your Timepiece
               </button>
             </div>
@@ -96,26 +96,26 @@ const Discover = () => {
 
         <motion.div
           style={{ scale: scale3 }}
-          className="h-screen sticky top-[50px] w-full flex flex-col items-center justify-center py-20"
+          className="h-screen sticky top-0 md:top-[50px] w-full flex flex-col items-center justify-center py-20"
         >
-          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl px-8 py-3">
+          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl md:px-8 px-5 py-3">
             <img
               src={watch3}
               alt="Midnight Prestige"
-              className=" watch-three h-[70%] object-contain drop-shadow-2xl"
+              className=" watch-three h-[50%] md:h-[70%] object-contain drop-shadow-2xl md:mb-0 mb-5"
             />
-            <div className="ml-5 max-w-lg">
-              <h1 className="text-5xl font-semibold text-white mb-4 tracking-wide">
+            <div className="md:ml-5 max-w-lg watch-one-text flex flex-col items-center md:items-start">
+              <h1 className="md:text-5xl text-2xl text-center md:text-left text-nowrap font-semibold text-white mb-4 tracking-wide">
                 Majestic Alloy
               </h1>
-              <p className="text-xl text-white italic mb-4">
+              <p className="md:text-xl text-md text-white italic mb-2 md:mb-4 md:text-left text-center">
                 "Forged for the bold."
               </p>
-              <p className="text-base text-gray-200 leading-relaxed">
+              <p className="md:text-base text-xs text-gray-200 leading-relaxed">
                 Rugged meets regal. This timepiece is a tribute to strength,
                 engineered from high-grade alloys for lasting impression.
               </p>
-              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
+              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-4 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out text-sm">
                 Embrace the Legacy
               </button>
             </div>
@@ -124,27 +124,27 @@ const Discover = () => {
 
         <motion.div
           style={{ scale: scale4 }}
-          className="h-screen sticky top-[75px] w-full flex flex-col items-center justify-center py-20"
+          className="h-screen sticky top-0 md:top-[75px] w-full flex flex-col items-center justify-center py-20"
         >
-          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl px-8 py-3">
+          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl md:px-8 px-5 py-3">
             <img
               src={watch4}
               alt="Midnight Prestige watch-four"
-              className="h-[70%] object-contain drop-shadow-2xl"
+              className="h-[50%] md:h-[70%] object-contain drop-shadow-2xl md:mb-0 mb-5"
             />
-            <div className="ml-5 max-w-lg">
-              <h1 className="text-5xl font-semibold text-white mb-4 tracking-wide">
+            <div className="md:ml-5 max-w-lg flex flex-col items-center md:items-start watch-two-text">
+              <h1 className="md:text-5xl text-2xl text-center md:text-left text-nowrap font-semibold text-white mb-4 tracking-wide">
                 {" "}
                 Heritage Pearl
               </h1>
-              <p className="text-xl text-white italic mb-4">
+              <p className="md:text-xl text-md text-white italic mb-2 md:mb-4 md:text-left text-center">
                 "Where tradition meets timeless."
               </p>
-              <p className="text-base text-gray-200 leading-relaxed">
+              <p className="md:text-base text-xs text-gray-200 leading-relaxed">
                 Vintage soul, modern heart. Heritage Pearl embodies classic
                 watchmaking with a refined contemporary twist.
               </p>
-              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
+              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-4 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out text-sm">
                 Preserve Tradition
               </button>
             </div>
@@ -153,26 +153,26 @@ const Discover = () => {
 
         <motion.div
           style={{ scale: scale5 }}
-          className="h-screen sticky top-[100px] w-full flex flex-col items-center justify-center py-20"
+          className="h-[100vh] sticky top-0 md:top-[100px] w-full flex flex-col items-center justify-center py-20"
         >
-          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl px-8 py-3">
+          <div className="watch-section w-[80%] h-[90%] mx-auto border-2 border-white/20 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 flex flex-row flex-wrap justify-center items-center rounded-3xl shadow-xl md:px-8 px-5 py-3">
             <img
               src={watch5}
               alt="Midnight Prestige watch-five"
-              className="h-[70%] object-contain drop-shadow-2xl"
+              className=" h-[50%] md:h-[70%] object-contain drop-shadow-2xl md:mb-0 mb-5"
             />
-            <div className="ml-5 max-w-lg">
-              <h1 className="text-5xl font-semibold text-white mb-4 tracking-wide">
+            <div className="md:ml-5 max-w-lg flex flex-col items-center md:items-start watch-two-text">
+              <h1 className="md:text-5xl text-2xl text-center md:text-left text-nowrap font-semibold text-white mb-4 tracking-wide">
                 Midnight Prestige
               </h1>
-              <p className="text-xl text-white italic mb-4">
+              <p className="md:text-xl text-md text-white italic mb-2 md:mb-4 md:text-left text-center">
                 "Own the hour. Rule the night."
               </p>
-              <p className="text-base text-gray-200 leading-relaxed">
+              <p className="md:text-base text-xs text-gray-200 leading-relaxed">
                 Sleek, seductive, and sophisticated—Midnight Prestige is built
                 for nightfall elegance and after-dark ambition.
               </p>
-              <button className="mt-6 px-6 py-3 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
+              <button className="md:mt-6 mt-3 md:px-6 md:py-3 px-4 py-2 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black rounded-full font-semibold shadow-xl hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out text-sm">
                 Own the Night
               </button>
             </div>

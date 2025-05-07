@@ -11,12 +11,18 @@ import { useRef } from 'react'
 const HorizontalScroll = () => {
 
     const couroselRef = useRef(null)
-    const {scrollYProgress} = useScroll({target: couroselRef})
+    const { scrollYProgress } = useScroll({
+        target: couroselRef,
+        offset: ["start end", "end start"],
+        ease: "cubic-bezier(0.895, 0.03, 0.685, 0.22)"
+      });
+      
     const x = useTransform(scrollYProgress,[0,1],["25%","-75%"])
+    const isMobile = window.innerWidth < 768;
 
 
   return (
-    <div ref={couroselRef} className='h-[400vh] bg-black w-full courosel-container'>
+    <div ref={couroselRef} className='md:block hidden md:h-[400vh] bg-black w-full courosel-container'>
         <div className='sticky top-0 w-full h-[100vh] flex flex-col items-end justify-center overflow-hidden'>
             <motion.div style={{x}} className='images-container flex px-20 space-x-16'>
                 <motion.img 
@@ -27,19 +33,23 @@ const HorizontalScroll = () => {
                 <motion.img 
                     initial={{opacity:0 , y : 150}} 
                     whileInView={{opacity:1 , y : 0}}
-                    transition={{duration:2 , ease: "easeOut"}} className='w-[500px] h-[500px] object-cover rounded-xl' src={img2} alt="" />
+                    transition={{duration:2 , ease: "easeOut"}} 
+                    className='w-[500px] h-[500px] object-cover rounded-xl' src={img2} alt="" />
                 <motion.img 
                     initial={{opacity:0 , y : 150}} 
                     whileInView={{opacity:1 , y : 0}}
-                    transition={{duration:2 , ease: "easeOut"}} className='w-[500px] h-[500px] object-cover rounded-xl' src={img3} alt="" />
+                    transition={{duration:2 , ease: "easeOut"}} 
+                    className='w-[500px] h-[500px] object-cover rounded-xl' src={img3} alt="" />
                 <motion.img 
                     initial={{opacity:0 , y : 150}} 
                     whileInView={{opacity:1 , y : 0}}
-                    transition={{duration:2 , ease: "easeOut"}} className='w-[500px] h-[500px] object-cover rounded-xl' src={img4} alt="" /> 
+                    transition={{duration:2 , ease: "easeOut"}} 
+                    className='w-[500px] h-[500px] object-cover rounded-xl' src={img4} alt="" /> 
                 <motion.img 
                     initial={{opacity:0 , y : 150}} 
                     whileInView={{opacity:1 , y : 0}}
-                    transition={{duration:2 , ease: "easeOut"}} className='w-[500px] h-[500px] object-cover rounded-xl' src={img5} alt="" />
+                    transition={{duration:2 , ease: "easeOut"}} 
+                    className='w-[500px] h-[500px] object-cover rounded-xl' src={img5} alt="" />
             </motion.div>
         </div>
     </div>

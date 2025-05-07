@@ -24,7 +24,7 @@ function App() {
     }
 
     requestAnimationFrame(raf);
-  },[])
+  },[]) 
 
 
     
