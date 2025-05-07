@@ -16,11 +16,8 @@ Chronix is a premium online destination for luxury timepieces, blending modern e
 
 ---
 
-## 🖼️ Preview
+[Live Demo](https://chronix-vite.vercel.app/)
 
-![Chronix Website Preview](https://chronix-vite.vercel.app/) <!-- Replace with your own screenshot -->
-
----
 
 ## 🚀 Getting Started
 
