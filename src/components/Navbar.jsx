@@ -30,7 +30,7 @@ function Navbar() {
           <span className=' md:cursor-pointer md:block hidden'>Store</span>
           <span className=' md:cursor-pointer md:block hidden'>Contact</span>
           <span className=' md:cursor-pointer md:block hidden'>Services</span>
-        </div>
+        </div>   
         <h2 className=' cursor-pointer md:block hidden font-lora'>+91 - 9602021473</h2>
         {
           showMenu
